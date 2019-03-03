@@ -24,10 +24,13 @@ module.exports = {
           path.join(__dirname, 'node_modules/wix-style-react'),
           path.join(__dirname, 'node_modules/bootstrap-sass') // only if you use Grid component
         ],
-        loaders: [
-          'style-loader',
-          'css-loader?modules&importLoaders=1&camelCase&localIdentName=[name]__[local]___[hash:base64:5]',
-          'sass-loader'
+        use: [
+          { loader: 'style-loader' },
+          {
+            loader: 'css-loader',
+            options: { importLoaders: 1, modules: true, localIdentName: '[name]__[local]___[hash:base64:5]', }
+          },
+          { loader: 'sass-loader' }
         ]
       },
       

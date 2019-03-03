@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "git": "start-storybook -p 8081 -c .storybook",
+    "git": "git add . && git commit -m 'Initial setup' && git push -u origin master",
     "storybook": "start-storybook -p 8081 -c .storybook",
     "start": "webpack-dev-server --mode development --hot --disable-host-check --host $IP --port $PORT",
     "test": "echo \"Error: no test specified\" && exit 1"
