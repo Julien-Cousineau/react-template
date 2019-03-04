@@ -37,6 +37,8 @@
     "file-loader": "^3.0.1",
     "html-webpack-plugin": "^3.2.0",
     "html-webpack-root-plugin": "^0.10.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
     "stylable": "^5.4.11",
@@ -47,8 +49,13 @@
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
+    "antd": "^3.13.6",
     "classnames": "^2.2.6",
+    "enquire-js": "^0.2.1",
+    "lodash.throttle": "^4.1.1",
     "prop-types": "^15.7.2",
+    "rc-queue-anim": "^1.6.12",
+    "rc-scroll-anim": "^2.5.6",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-hot-loader": "^4.7.1",
@@ -57,7 +64,6 @@
     "react-router-dom": "^4.3.1",
     "redux": "^4.0.1",
     "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.3.0",
-    "wix-style-react": "^6.7.1"
+    "redux-thunk": "^2.3.0"
   }
 }

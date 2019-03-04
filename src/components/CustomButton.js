@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Button from 'wix-style-react/Button';
+// import { Button } from 'antd';
+import { Button } from '@storybook/react/demo';
 
 const style = {
   background: 'white',

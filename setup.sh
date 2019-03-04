@@ -30,5 +30,9 @@ npm i -D eslint eslint-loader babel-eslint eslint-plugin-react eslint-plugin-imp
 npm i -D node-sass stylable @stylable/webpack-plugin @stylable/core
 npm i -S wix-style-react
 
+# AntD
+npm i -S antd enquire-js lodash.throttle rc-queue-anim rc-scroll-anim
+npm i -D less less-loader
+npm i -D babel-plugin-import
 # Storybook
 npm i -D @storybook/react
